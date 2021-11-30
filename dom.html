@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
     <!-- <p class="master2">i love javascript</p>
     <p class="master2">i love react</p>
     <h1 class="master2">i want a job</h1>
@@ -11,3 +21,26 @@
         master[2].innerHTML = 'i need a job'
     })
 </script> -->
+
+<p>VsCode</p>
+<p>Atom</p>
+<p>Sublime text</p>
+       <button id="btn">click me</button>
+       <a href="./about.html">About page</a>
+      
+
+<script>
+
+const btn = document.getElementById('btn')
+       
+       btn.addEventListener('click', function master(){
+           let master = document.getElementsByTagName('p');
+           let masterEl = master[1].innerHTML = 'Code editors';
+           console.log(masterEl) //Code editors
+       })
+
+//<p>Atom</p> changes to <p>Code editors</p>
+</script>
+<img src="./images/yt.jpeg" alt="image for practice">
+</body>
+</html>
